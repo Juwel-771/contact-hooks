@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navigation = () => {
     return (
-        <nav>
+        <nav className='container'>
             <div>
                 <img src="/public/images/logo.png" alt="Logo File" />
             </div>
