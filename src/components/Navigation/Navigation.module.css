@@ -12,3 +12,8 @@
     list-style-type: none;
     font-weight: 500;
 }
+
+.navigation ul a {
+    color: black;
+    text-decoration: none;
+}

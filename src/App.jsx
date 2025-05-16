@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navigation from './components/Navigation/Navigation'
+import ContactHeader from './components/ContactHeader/ContactHeader'
 
 function App() {
  
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Navigation></Navigation>
+      <ContactHeader></ContactHeader>
     </>
   )
 }
