@@ -5,8 +5,8 @@ import { RiMessage3Fill } from "react-icons/ri";
 
 const Button = (props) => {
     return (
-        <button className='primary_btn'>
-            <RiMessage3Fill fontSize= "24px" />
+        <button className={props.isOutline ? "outline_btn" : "primary_btn"}>
+            {props.icon}
             {props.text}
         </button>
     );

@@ -3,3 +3,13 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/* .contact_form {
+    margin: 80px 0px;
+} */
+
+.top_btn {
+    margin-top: 20px;
+    display: flex;
+    gap: 32px;
+}

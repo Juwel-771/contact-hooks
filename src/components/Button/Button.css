@@ -11,3 +11,20 @@
     align-items: center;
     justify-content: center;
 }
+
+.outline_btn{
+    min-width:220px;
+    width: 100%;
+
+    padding: 15px 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
