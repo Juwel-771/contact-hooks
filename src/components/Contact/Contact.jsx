@@ -15,6 +15,13 @@ const Contact = () => {
                     <Button text = "VIA CALLS" icon = {<MdCall/>}></Button>
                 </div>
                 <Button isOutline = {true} text = "VIA EMAIL FORM" icon = {<IoIosMailUnread />}></Button>
+
+                <form>
+                    <div className='form_control'>
+                        <label htmlFor="name">Name </label>
+                        <input type="text" name='name' />
+                    </div>
+                </form>
             </div>
             <div className='contact_image'></div>
         </section>
