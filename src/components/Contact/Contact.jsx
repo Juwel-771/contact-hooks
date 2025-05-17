@@ -4,6 +4,7 @@ import Button from '../Button/Button';
 import { RiMessage3Fill } from "react-icons/ri";
 import { MdCall } from "react-icons/md";
 import { IoIosMailUnread } from "react-icons/io";
+import contact_img from '../.././assets/contact.svg'
 
 
 const Contact = () => {
@@ -27,14 +28,16 @@ const Contact = () => {
                     </div>
                     <div className='form_control'>
                         <label htmlFor="name">Text </label>
-                        <textarea type='text' name='name' />
+                        <textarea type='text' rows="8" name='name' />
                     </div>
                     <div style={{display: "flex", justifyContent: "end"}}>
                         <Button text = "SUBMIT"></Button>
                     </div>
                 </form>
             </div>
-            <div className='contact_image'></div>
+            <div className='contact_image'>
+                <img src={contact_img} alt="" />
+            </div>
         </section>
     );
 };
