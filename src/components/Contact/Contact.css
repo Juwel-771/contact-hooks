@@ -10,6 +10,12 @@
     gap: 24px   ;
 }
 
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .top_btn {
     margin-top: 20px;
     display: flex;
@@ -29,6 +35,8 @@
 }
 
 .form_control label {
+    font-size: 14px;
+    font-weight: bolder;
     position: absolute;
     top: -12px;
     left: 10px;
