@@ -13,9 +13,9 @@ const Contact = () => {
             <div className='contact_form'>
                 <div className='top_btn'>
                     <Button text = "SUPPORT CALLS" icon = {<RiMessage3Fill/>}></Button>
-                    <Button text = "VIA CALLS" icon = {<MdCall/>}></Button>
+                    <Button text = "CALLS" icon = {<MdCall/>}></Button>
                 </div>
-                <Button isOutline = {true} text = "VIA EMAIL FORM" icon = {<IoIosMailUnread />}></Button>
+                <Button isOutline = {true} text = "EMAIL FORM" icon = {<IoIosMailUnread />}></Button>
 
                 <form>
                     <div className='form_control'>
