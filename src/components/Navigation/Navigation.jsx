@@ -9,6 +9,7 @@ const Navigation = () => {
             <ul>
                 <a href="#"><li>Home</li></a>
                 <a href="#"><li>About</li></a>
+                <a href="#"><li>Blog</li></a>
                 <a href="#"><li>Contact</li></a>
             </ul>
         </nav>
